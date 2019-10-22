@@ -1,3 +1,5 @@
+//$.noConflict();
+
 // Using the jquery Chosen
 const config = {
     ".chosen-select": {},
@@ -21,6 +23,7 @@ const config = {
   $("#submit").on("click", function (event) {
     // Prevents page from reloading
     event.preventDefault();
+  
     //validates form so all info has to be input first
     function validateForm() {
       let isValid = true;
@@ -55,6 +58,7 @@ const config = {
           $("#q10").val()
         ]
       };
+      console.log(userInput);
       // Post for friends API
       //this line is addig a api/infront of /data
       $.post("/data/friends", userInput, function (data) {
@@ -68,3 +72,4 @@ const config = {
       alert("Please fill out all fields before submitting!");
     }
   });
+
