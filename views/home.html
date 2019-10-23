@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Adventure Time Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <!--Stylesheets CSS-->
+    <link rel="stylesheet" href="/stylesheets/style.css">  
 </head>
 <body>
-    <h1>Home page</h1>
+    <h3 class="home-title">Which Adventure Time Character are You?</h3>
     <form method="GET" action="api/survey">
-        <button type="submit">Continue</button>
+        <div class="button-container">
+        <button type="submit" class="btn btn-info" id="home-button">Continue</button>
+    </div>
     </form>
+
+<div class="image-container">
+    <img class="home-image" src="https://media.wired.com/photos/593266104dc9b45ccec5da4b/master/w_825,c_limit/AdventureTime.jpg" alt="adventure time">
+</div>
+
 </body>
 </html>

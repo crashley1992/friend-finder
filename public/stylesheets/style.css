@@ -1,0 +1,95 @@
+/* Home styling */
+.home-title {
+    padding: 5px 5px 5px 5px;
+    background-color: #5bc0de;
+    text-align: center;
+    width: 100%;
+}
+
+.button-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 95px;
+}
+
+.home-image  {
+    border-radius: 50%;
+    margin-top: 2%;
+}
+
+@media (max-width: 576px) { 
+
+    .image-container {
+      margin-top: 5%;
+      text-align: center;
+    }
+  
+    .home-image  {
+      width: 200px;
+      height: 200px;
+  }
+  
+   }
+  
+  @media (min-width: 768px) {
+
+    .image-container {
+        margin-top: 5%;
+        text-align: center;
+      }
+    
+      .home-image  {
+        width: 500px;
+        height: 500px;
+    }
+    
+}
+  
+  @media (min-width: 992px) { 
+    .image-container {
+        margin-top: 5%;
+        text-align: center;
+      }
+
+      .home-image  {
+        width: 800px;
+        height: 800px;
+    }
+   }
+  
+/* Styling for Survey */
+.survey-title {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    background-color: #5bc0de;
+}
+
+.about-survey {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    /* background-color: #5bc0de; */
+}
+
+h4 {
+    background-color: #5bc0de;
+    padding: 5px 5px 5px 5px;
+}
+
+.container  {
+    text-align: center;
+}
+
+#modal-content {
+    text-align: center;
+}
+
+/* sizing for image after results */
+#match-img {
+    width: 200px;
+    height: 250px;
+}
+
+
+
+

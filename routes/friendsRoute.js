@@ -26,7 +26,7 @@ router.post('/friends', (req, res) => {
 
     //variable for close match with min difference
     let bestMatch = 0;
-    let minDiff = 40;
+    let minDiff = 1000;
 
     //for Loop to compare scores
     for (let i = 0; i < friendsData.length; i++) {
