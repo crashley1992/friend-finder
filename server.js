@@ -28,4 +28,4 @@ app.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, 'views', 'not-found.html'));
 });
 
-app.listen(8080);
+app.listen(process.env.PORT || 8080);
