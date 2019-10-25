@@ -9,7 +9,7 @@
 .button-container {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     width: 95px;
 }
 
@@ -48,13 +48,13 @@
   
   @media (min-width: 992px) { 
     .image-container {
-        margin-top: 5%;
+        margin-top: 1%;
         text-align: center;
       }
 
       .home-image  {
-        width: 800px;
-        height: 800px;
+        width: 500px;
+        height: 500px;
     }
    }
   
@@ -63,6 +63,11 @@
     text-align: center;
     padding: 5px 5px 5px 5px;
     background-color: #5bc0de;
+}
+
+.form-control {
+    border: solid black 1px;
+    margin-bottom: 1%;
 }
 
 .about-survey {
